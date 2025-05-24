@@ -7,7 +7,7 @@ import "./assets/img/4geeks.ico";
 
 window.onload = function() {
   //write your code here
-
+ 
   let who = ['The dog', 'My grandma', 'The mailman', 'My bird'];
   let action = ['ate', 'peed', 'crushed', 'broke'];
   let what = ['my homework', 'my phone', 'the car'];
@@ -19,6 +19,6 @@ window.onload = function() {
     what[Math.floor(Math.random()*what.length)] + " " +
     when[Math.floor(Math.random()*when.length)];
 
-    document.getElementById("excuse").innerHTML = excuse;
+  document.getElementById("excuse").innerHTML = excuse;
 
 };
